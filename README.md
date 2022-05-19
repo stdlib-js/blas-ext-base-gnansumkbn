@@ -30,30 +30,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/blas-ext-base-gnansumkbn
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var gnansumkbn = require( '@stdlib/blas-ext-base-gnansumkbn' );
+gnansumkbn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumkbn@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumkbn@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.gnansumkbn;
+})();
+</script>
 ```
 
 #### gnansumkbn( N, x, stride )
@@ -152,11 +154,16 @@ var v = gnansumkbn.ndarray( N, x, 2, 1 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var round = require( '@stdlib/math-base-special-round' );
-var Float64Array = require( '@stdlib/array-float64' );
-var gnansumkbn = require( '@stdlib/blas-ext-base-gnansumkbn' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumkbn@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 var x;
 var i;
@@ -173,6 +180,11 @@ console.log( x );
 
 var v = gnansumkbn( x.length, x, 1 );
 console.log( v );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -288,19 +300,19 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/blas/ext/base/dnansumkbn]: https://github.com/stdlib-js/blas-ext-base-dnansumkbn
+[@stdlib/blas/ext/base/dnansumkbn]: https://github.com/stdlib-js/blas-ext-base-dnansumkbn/tree/umd
 
-[@stdlib/blas/ext/base/gnansum]: https://github.com/stdlib-js/blas-ext-base-gnansum
+[@stdlib/blas/ext/base/gnansum]: https://github.com/stdlib-js/blas-ext-base-gnansum/tree/umd
 
-[@stdlib/blas/ext/base/gnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-gnansumkbn2
+[@stdlib/blas/ext/base/gnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-gnansumkbn2/tree/umd
 
-[@stdlib/blas/ext/base/gnansumors]: https://github.com/stdlib-js/blas-ext-base-gnansumors
+[@stdlib/blas/ext/base/gnansumors]: https://github.com/stdlib-js/blas-ext-base-gnansumors/tree/umd
 
-[@stdlib/blas/ext/base/gnansumpw]: https://github.com/stdlib-js/blas-ext-base-gnansumpw
+[@stdlib/blas/ext/base/gnansumpw]: https://github.com/stdlib-js/blas-ext-base-gnansumpw/tree/umd
 
-[@stdlib/blas/ext/base/gsumkbn]: https://github.com/stdlib-js/blas-ext-base-gsumkbn
+[@stdlib/blas/ext/base/gsumkbn]: https://github.com/stdlib-js/blas-ext-base-gsumkbn/tree/umd
 
-[@stdlib/blas/ext/base/snansumkbn]: https://github.com/stdlib-js/blas-ext-base-snansumkbn
+[@stdlib/blas/ext/base/snansumkbn]: https://github.com/stdlib-js/blas-ext-base-snansumkbn/tree/umd
 
 <!-- </related-links> -->
 
