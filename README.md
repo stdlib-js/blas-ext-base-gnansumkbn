@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.gnansumkbn;
+})();
 })();
 </script>
 ```
@@ -170,6 +172,7 @@ var v = gnansumkbn.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumkbn@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -187,6 +190,7 @@ console.log( x );
 var v = gnansumkbn( x.length, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -306,19 +310,19 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/blas/ext/base/dnansumkbn]: https://github.com/stdlib-js/blas-ext-base-dnansumkbn/tree/umd
+[@stdlib/blas/ext/base/dnansumkbn]: https://github.com/stdlib-js/blas-ext-base-dnansumkbn/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/gnansum]: https://github.com/stdlib-js/blas-ext-base-gnansum/tree/umd
+[@stdlib/blas/ext/base/gnansum]: https://github.com/stdlib-js/blas-ext-base-gnansum/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/gnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-gnansumkbn2/tree/umd
+[@stdlib/blas/ext/base/gnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-gnansumkbn2/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/gnansumors]: https://github.com/stdlib-js/blas-ext-base-gnansumors/tree/umd
+[@stdlib/blas/ext/base/gnansumors]: https://github.com/stdlib-js/blas-ext-base-gnansumors/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/gnansumpw]: https://github.com/stdlib-js/blas-ext-base-gnansumpw/tree/umd
+[@stdlib/blas/ext/base/gnansumpw]: https://github.com/stdlib-js/blas-ext-base-gnansumpw/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/gsumkbn]: https://github.com/stdlib-js/blas-ext-base-gsumkbn/tree/umd
+[@stdlib/blas/ext/base/gsumkbn]: https://github.com/stdlib-js/blas-ext-base-gsumkbn/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/snansumkbn]: https://github.com/stdlib-js/blas-ext-base-snansumkbn/tree/umd
+[@stdlib/blas/ext/base/snansumkbn]: https://github.com/stdlib-js/blas-ext-base-snansumkbn/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
