@@ -151,7 +151,7 @@ var v = gnansumkbn.ndarray( N, x, 2, 1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `0.0`.
--   Depending on the environment, the typed versions ([`dnansum`][@stdlib/blas/ext/base/dnansum], [`snansum`][@stdlib/blas/ext/base/snansum], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dnansumkbn`][@stdlib/blas/ext/base/dnansumkbn], [`snansumkbn`][@stdlib/blas/ext/base/snansumkbn], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -297,9 +297,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [@neumaier:1974a]: https://doi.org/10.1002/zamm.19740540106
 
-<!-- <related-links> -->
-
 [@stdlib/blas/ext/base/dnansumkbn]: https://github.com/stdlib-js/blas-ext-base-dnansumkbn
+
+[@stdlib/blas/ext/base/snansumkbn]: https://github.com/stdlib-js/blas-ext-base-snansumkbn
+
+<!-- <related-links> -->
 
 [@stdlib/blas/ext/base/gnansum]: https://github.com/stdlib-js/blas-ext-base-gnansum
 
@@ -310,8 +312,6 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/gnansumpw]: https://github.com/stdlib-js/blas-ext-base-gnansumpw
 
 [@stdlib/blas/ext/base/gsumkbn]: https://github.com/stdlib-js/blas-ext-base-gsumkbn
-
-[@stdlib/blas/ext/base/snansumkbn]: https://github.com/stdlib-js/blas-ext-base-snansumkbn
 
 <!-- </related-links> -->
 
