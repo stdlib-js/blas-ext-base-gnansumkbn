@@ -50,6 +50,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+gnansumkbn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumkbn@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gnansumkbn/tags). For example,
+
+```javascript
 gnansumkbn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumkbn@v0.3.0-umd/browser.js' )
 ```
 
@@ -62,7 +67,7 @@ var gnansumkbn = require( 'path/to/vendor/umd/blas-ext-base-gnansumkbn/index.js'
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumkbn@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumkbn@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -168,7 +173,7 @@ var v = gnansumkbn.ndarray( 5, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumkbn@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumkbn@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
