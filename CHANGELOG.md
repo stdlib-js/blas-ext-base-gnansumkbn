@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-04-25)
+## 0.3.0 (2026-01-31)
 
 <section class="features">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
+-   [`3e9f3a0`](https://github.com/stdlib-js/stdlib/commit/3e9f3a0bdc4c231521f39148dbff889815bae6d7) - **docs:** fix missing period _(by Athan Reines)_
 -   [`be45258`](https://github.com/stdlib-js/stdlib/commit/be45258cb4b35783be2c8df04d81eafdd9c1c1ac) - **test:** add zeros tests _(by Athan Reines)_
 -   [`2e66bec`](https://github.com/stdlib-js/stdlib/commit/2e66becd6ee0876f1ee00c55506a369bec2d7f7a) - **feat:** add accessor arrays support to `blas/ext/base/gnansumkbn` [(#5032)](https://github.com/stdlib-js/stdlib/pull/5032) _(by Muhammad Haris)_
 -   [`e7febbb`](https://github.com/stdlib-js/stdlib/commit/e7febbb12a07c4040dcef0710f0efee4a4f38797) - **refactor:** update `blas/ext/base/gnansumkbn` to follow current project conventions [(#4632)](https://github.com/stdlib-js/stdlib/pull/4632) _(by Muhammad Haris)_
